@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dslistadegastos" targetNamespace="http://tempuri.org/dslistadegastos.xsd" xmlns:mstns="http://tempuri.org/dslistadegastos.xsd" xmlns="http://tempuri.org/dslistadegastos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dslistadegastos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dslistadegastos" msprop:Generator_UserDSName="dslistadegastos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Gastos" msprop:Generator_TableClassName="GastosDataTable" msprop:Generator_TableVarName="tableGastos" msprop:Generator_TablePropName="Gastos" msprop:Generator_RowDeletingName="GastosRowDeleting" msprop:Generator_RowChangingName="GastosRowChanging" msprop:Generator_RowEvHandlerName="GastosRowChangeEventHandler" msprop:Generator_RowDeletedName="GastosRowDeleted" msprop:Generator_UserTableName="Gastos" msprop:Generator_RowChangedName="GastosRowChanged" msprop:Generator_RowEvArgName="GastosRowChangeEvent" msprop:Generator_RowClassName="GastosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="categoria" msprop:Generator_ColumnVarNameInTable="columncategoria" msprop:Generator_ColumnPropNameInRow="categoria" msprop:Generator_ColumnPropNameInTable="categoriaColumn" msprop:Generator_UserColumnName="categoria" type="xs:string" minOccurs="0" />
+              <xs:element name="subcategoria" msprop:Generator_ColumnVarNameInTable="columnsubcategoria" msprop:Generator_ColumnPropNameInRow="subcategoria" msprop:Generator_ColumnPropNameInTable="subcategoriaColumn" msprop:Generator_UserColumnName="subcategoria" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="valor" msprop:Generator_ColumnVarNameInTable="columnvalor" msprop:Generator_ColumnPropNameInRow="valor" msprop:Generator_ColumnPropNameInTable="valorColumn" msprop:Generator_UserColumnName="valor" type="xs:string" minOccurs="0" />
+              <xs:element name="formapago" msprop:Generator_ColumnVarNameInTable="columnformapago" msprop:Generator_ColumnPropNameInRow="formapago" msprop:Generator_ColumnPropNameInTable="formapagoColumn" msprop:Generator_UserColumnName="formapago" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="totalcategoria" msprop:Generator_TableClassName="totalcategoriaDataTable" msprop:Generator_TableVarName="tabletotalcategoria" msprop:Generator_RowChangedName="totalcategoriaRowChanged" msprop:Generator_TablePropName="totalcategoria" msprop:Generator_RowDeletingName="totalcategoriaRowDeleting" msprop:Generator_RowChangingName="totalcategoriaRowChanging" msprop:Generator_RowEvHandlerName="totalcategoriaRowChangeEventHandler" msprop:Generator_RowDeletedName="totalcategoriaRowDeleted" msprop:Generator_RowClassName="totalcategoriaRow" msprop:Generator_UserTableName="totalcategoria" msprop:Generator_RowEvArgName="totalcategoriaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="categoria" msprop:Generator_ColumnVarNameInTable="columncategoria" msprop:Generator_ColumnPropNameInRow="categoria" msprop:Generator_ColumnPropNameInTable="categoriaColumn" msprop:Generator_UserColumnName="categoria" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="totalsubcategoria" msprop:Generator_TableClassName="totalsubcategoriaDataTable" msprop:Generator_TableVarName="tabletotalsubcategoria" msprop:Generator_TablePropName="totalsubcategoria" msprop:Generator_RowDeletingName="totalsubcategoriaRowDeleting" msprop:Generator_RowChangingName="totalsubcategoriaRowChanging" msprop:Generator_RowEvHandlerName="totalsubcategoriaRowChangeEventHandler" msprop:Generator_RowDeletedName="totalsubcategoriaRowDeleted" msprop:Generator_UserTableName="totalsubcategoria" msprop:Generator_RowChangedName="totalsubcategoriaRowChanged" msprop:Generator_RowEvArgName="totalsubcategoriaRowChangeEvent" msprop:Generator_RowClassName="totalsubcategoriaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="subcategoria" msprop:Generator_ColumnVarNameInTable="columnsubcategoria" msprop:Generator_ColumnPropNameInRow="subcategoria" msprop:Generator_ColumnPropNameInTable="subcategoriaColumn" msprop:Generator_UserColumnName="subcategoria" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="totalformapago" msprop:Generator_TableClassName="totalformapagoDataTable" msprop:Generator_TableVarName="tabletotalformapago" msprop:Generator_TablePropName="totalformapago" msprop:Generator_RowDeletingName="totalformapagoRowDeleting" msprop:Generator_RowChangingName="totalformapagoRowChanging" msprop:Generator_RowEvHandlerName="totalformapagoRowChangeEventHandler" msprop:Generator_RowDeletedName="totalformapagoRowDeleted" msprop:Generator_UserTableName="totalformapago" msprop:Generator_RowChangedName="totalformapagoRowChanged" msprop:Generator_RowEvArgName="totalformapagoRowChangeEvent" msprop:Generator_RowClassName="totalformapagoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="formapago" msprop:Generator_ColumnVarNameInTable="columnformapago" msprop:Generator_ColumnPropNameInRow="formapago" msprop:Generator_ColumnPropNameInTable="formapagoColumn" msprop:Generator_UserColumnName="formapago" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
